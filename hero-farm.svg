@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Indian farm landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe7ff"/>
+      <stop offset="0.55" stop-color="#f8e5aa"/>
+      <stop offset="1" stop-color="#f8f3dc"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f9d52"/>
+      <stop offset="0.55" stop-color="#9fcf4c"/>
+      <stop offset="1" stop-color="#e0b747"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1260" cy="155" r="86" fill="#ffd46e"/>
+  <circle cx="1260" cy="155" r="135" fill="#ffd46e" opacity="0.2" filter="url(#soft)"/>
+  <path d="M0 410 C260 330 420 395 620 345 C880 285 1050 360 1270 315 C1430 285 1530 325 1600 305 L1600 900 L0 900 Z" fill="#6f9b5d" opacity="0.76"/>
+  <path d="M0 510 C230 430 410 475 620 430 C865 378 1085 440 1285 395 C1450 360 1540 395 1600 382 L1600 900 L0 900 Z" fill="url(#field)"/>
+  <path d="M130 900 C260 720 430 610 650 510" fill="none" stroke="#f5eab4" stroke-width="34" opacity="0.7"/>
+  <path d="M370 900 C510 710 690 605 925 505" fill="none" stroke="#f5eab4" stroke-width="26" opacity="0.6"/>
+  <path d="M650 900 C770 710 970 610 1220 500" fill="none" stroke="#f5eab4" stroke-width="22" opacity="0.52"/>
+  <g opacity="0.28" stroke="#22452e" stroke-width="7">
+    <path d="M0 646 C250 590 450 600 650 535 C900 455 1130 500 1600 420" fill="none"/>
+    <path d="M0 720 C270 650 500 650 720 580 C980 500 1180 545 1600 470" fill="none"/>
+    <path d="M0 802 C310 728 560 735 805 650 C1040 570 1230 610 1600 548" fill="none"/>
+  </g>
+  <g transform="translate(245 426)">
+    <rect x="28" y="68" width="170" height="106" rx="10" fill="#f4d28c"/>
+    <path d="M12 80 L113 10 L214 80 Z" fill="#b85737"/>
+    <rect x="70" y="115" width="48" height="59" fill="#6f3f2b"/>
+    <rect x="134" y="105" width="38" height="34" rx="5" fill="#8fc4df"/>
+  </g>
+  <g fill="#245239">
+    <rect x="1080" y="406" width="16" height="92" rx="8"/>
+    <path d="M1088 405 C1025 390 1022 335 1088 315 C1150 333 1152 392 1088 405"/>
+    <rect x="1186" y="382" width="13" height="80" rx="7"/>
+    <path d="M1192 380 C1142 368 1134 320 1195 298 C1245 312 1247 365 1192 380"/>
+  </g>
+  <g transform="translate(600 515)">
+    <rect x="0" y="58" width="190" height="70" rx="18" fill="#d95030"/>
+    <rect x="24" y="20" width="94" height="62" rx="10" fill="#e76a36"/>
+    <circle cx="42" cy="137" r="28" fill="#2f3b32"/>
+    <circle cx="158" cy="137" r="28" fill="#2f3b32"/>
+    <circle cx="42" cy="137" r="12" fill="#c8d9c2"/>
+    <circle cx="158" cy="137" r="12" fill="#c8d9c2"/>
+  </g>
+  <rect width="1600" height="900" fill="#173322" opacity="0.18"/>
+</svg>

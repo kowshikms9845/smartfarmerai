@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": "user_579be73f-42c0-488e-8d7f-4986828f5780",
+      "role": "farmer",
+      "name": "kowshik ms",
+      "email": "callmecow7@gmail.com",
+      "phone": "6364159350",
+      "location": "bengaluru",
+      "locationLink": "horamavu",
+      "language": "en",
+      "upiId": "916364159350@waicici",
+      "photoUrl": "/uploads/profile-d7a15d7e-657d-4e65-94ba-ed6458e0ce7c.jpg",
+      "passwordHash": "22a8c9a910cd32437430e23a91daad36:5e87b321968d4cd74dd6ebd3e0ed4cdb8fec000d1a037c3d9a88279aafaa7897",
+      "createdAt": "2026-05-12T16:08:43.914Z"
+    },
+    {
+      "id": "user_a5c0f656-52cb-4a61-b2c6-ab5bd62aea33",
+      "role": "buyer",
+      "name": "kowshikms",
+      "email": "kowshikms.25ece@cambridge.edu.in",
+      "phone": "6364159350",
+      "location": "horamavu",
+      "locationLink": "bengaluru",
+      "language": "en",
+      "upiId": "6364159350@ybl",
+      "photoUrl": "/uploads/profile-029d48ec-db02-4ba1-98d9-8a5d6860a76d.jpg",
+      "passwordHash": "10bc7186e0a6a3a954d9db9f94fa21fe:3fc156348c43c89f682cb91952bb05c08982b2b193c430eb2544103c4f4a16b9",
+      "createdAt": "2026-05-12T16:12:07.184Z"
+    }
+  ],
+  "sessions": {},
+  "crops": [
+    {
+      "id": "crop_05ff2c73-23d2-4d91-ab3e-5ee9365f9b68",
+      "farmerId": "user_579be73f-42c0-488e-8d7f-4986828f5780",
+      "cropName": "rice",
+      "photoUrl": "/uploads/crop-48709aa6-9fb1-4fd2-8564-a092506d1183.jpg",
+      "quantity": "500",
+      "unit": "kg",
+      "price": 45,
+      "quality": "",
+      "harvestDate": "2026-05-15",
+      "description": "",
+      "location": "bengaluru",
+      "locationLink": "horamavu",
+      "organic": false,
+      "negotiable": false,
+      "status": "available",
+      "createdAt": "2026-05-12T16:14:45.097Z"
+    },
+    {
+      "id": "crop_26117f11-1587-425a-92a7-fd48037ea32a",
+      "farmerId": "user_579be73f-42c0-488e-8d7f-4986828f5780",
+      "cropName": "wheat",
+      "photoUrl": "/uploads/crop-7012c981-55d4-46eb-8bf3-404ef1573187.jpg",
+      "quantity": "255",
+      "unit": "kg",
+      "price": 15,
+      "quality": "fresh",
+      "harvestDate": "2026-05-14",
+      "description": "it is good",
+      "location": "bengaluru",
+      "locationLink": "horamavu",
+      "organic": true,
+      "negotiable": true,
+      "status": "available",
+      "createdAt": "2026-05-12T16:16:06.869Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "feedback_59034bff-0b97-480b-b05e-f1364119f313",
+      "cropId": "crop_26117f11-1587-425a-92a7-fd48037ea32a",
+      "farmerId": "user_579be73f-42c0-488e-8d7f-4986828f5780",
+      "buyerId": "user_a5c0f656-52cb-4a61-b2c6-ab5bd62aea33",
+      "buyerName": "kowshikms",
+      "rating": 3,
+      "comment": "good",
+      "createdAt": "2026-05-12T16:18:05.389Z"
+    },
+    {
+      "id": "feedback_87f5fb5b-2776-4a57-a1d2-d85eece291aa",
+      "cropId": "crop_26117f11-1587-425a-92a7-fd48037ea32a",
+      "farmerId": "user_579be73f-42c0-488e-8d7f-4986828f5780",
+      "buyerId": "user_a5c0f656-52cb-4a61-b2c6-ab5bd62aea33",
+      "buyerName": "kowshikms",
+      "rating": 3,
+      "comment": "needs cleaness",
+      "createdAt": "2026-05-12T17:07:44.946Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_3d397b8d-3323-4807-900c-2c41f4094109",
+      "cropId": "crop_26117f11-1587-425a-92a7-fd48037ea32a",
+      "cropName": "wheat",
+      "farmerId": "user_579be73f-42c0-488e-8d7f-4986828f5780",
+      "farmerName": "kowshik ms",
+      "farmerPhone": "6364159350",
+      "buyerId": "user_a5c0f656-52cb-4a61-b2c6-ab5bd62aea33",
+      "buyerName": "kowshikms",
+      "buyerPhone": "6364159350",
+      "amount": 200,
+      "method": "Google Pay",
+      "receiverUpi": "916364159350@waicici",
+      "payerUpi": "916364159350@waicici",
+      "transactionId": "1235654",
+      "note": "ok",
+      "createdAt": "2026-05-12T16:23:30.351Z",
+      "upiLink": "upi://pay?pa=916364159350%40waicici&pn=kowshik+ms&am=200.00&cu=INR&tn=Smart+Farmer+AI+-+wheat"
+    }
+  ],
+  "resetTokens": {}
+}
