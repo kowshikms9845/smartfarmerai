@@ -1,0 +1,19 @@
+{
+  "name": "smart-farmer-ai",
+  "version": "1.0.0",
+  "description": "Hackathon prototype connecting farmers and buyers with AI guidance, crop marketplace, UPI receipt flow, and multilingual support.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "keywords": [
+    "farmer",
+    "marketplace",
+    "hackathon",
+    "upi",
+    "gemini"
+  ],
+  "author": "Smart Farmer AI Team",
+  "license": "MIT"
+}
